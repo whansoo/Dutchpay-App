@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
     <AppLayout>
       <Routes>
-         <Route path='/' element={<CreateGroup/>}/>
+         <Route path='/group' element={<CreateGroup/>}/>
          <Route path='/members' element={<AddMembers/>}/>
          <Route path='/expense' element={<ExpenseMain/>}/>
       </Routes>

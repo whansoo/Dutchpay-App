@@ -5,6 +5,7 @@ export const CreateGroup = () => {
  
 const S = styled.span`
   font-family: 'Pretendard-Regular';
+  height: 1000px;
 `;
   return (
     <>
